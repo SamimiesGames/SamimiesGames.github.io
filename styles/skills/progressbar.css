@@ -1,5 +1,10 @@
+:root {
+    --bg-color: #333
+}
+
+
 .progress-bar-background {
-    background-color: #111;
+    background-color: var(--bg-color);
     border-radius: 60px;
 
     width: 100%;
