@@ -7,21 +7,26 @@
     background-color: #111;
 
     border-radius: 4px;
-
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-
 }
+
+#contact-me form {
+    display: grid;
+
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: ". email send .";
+    grid-gap: 1rem;
+
+    margin: 2.5% 2.5% 2.5% 2.5%;
+    padding: 2.5% 2.5% 2.5% 2.5%;
+}
+
 
 #contact-me span {
     font-size: 2rem;
 }
 
-#contact-me form textarea {
-    border: none;
-}
-
 #contact-me form button {
     border: none;
+    background-color: chocolate;
 }
 
