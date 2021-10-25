@@ -1,0 +1,15 @@
+@import "nav/styles.css";
+@import "herobanner/styles.css";
+@import "projects/styles.css";
+@import "about-me/styles.css";
+@import "skills/styles.css";
+
+
+html {
+    scroll-behavior: smooth;
+
+    font-family: "Roboto", monospace;
+
+    background-color: black;
+    color: white;
+}

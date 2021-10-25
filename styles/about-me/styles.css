@@ -1,0 +1,11 @@
+#about-me {
+    display: grid;
+
+
+    margin: 2.5% 2.5% 5% 2.5%;
+    text-align: center;
+}
+
+#about-me p {
+    font-size: 2rem;
+}

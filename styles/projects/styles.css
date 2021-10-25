@@ -1,0 +1,52 @@
+#projects {
+    display: grid;
+
+    text-align: center;
+
+    grid-template-rows: repeat(3, 1fr);
+
+    grid-template-areas: "hannankakut flex-example responsive-example";
+
+    margin: 0 2.5% 5% 2.5%;
+
+    height: 600px;
+}
+
+
+.project {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    grid-template-areas:
+            "title"
+            "image";
+}
+
+#projects div p {
+    font-weight: bold;
+    font-size: 2rem;
+    text-wrap: none;
+
+    grid-area: title;
+}
+
+#projects div img {
+    width: 100%;
+    height: 100%;
+
+    grid-area: image;
+}
+
+
+@media (max-width: 768px) {
+    #projects {
+        grid-template-rows: auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+                "hannankakut"
+                "flex-example"
+                "responsive-example"
+        ;
+    }
+}

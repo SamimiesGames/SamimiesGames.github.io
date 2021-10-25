@@ -1,0 +1,28 @@
+:root {
+    --fs-nav: 1.7rem;
+}
+
+
+#navigation a:hover {
+    color: #aaa;
+}
+
+#navigation a {
+    text-decoration: none;
+}
+
+#gallery {
+    grid-area: gallery;
+}
+
+#user-icon {
+    grid-area: icon;
+    width: 88px;
+    height: 88px;
+}
+
+@media (max-width: 768px) {
+    :root {
+        --fs-nav: 1rem;
+    }
+}
