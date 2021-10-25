@@ -1,0 +1,27 @@
+#contact-me {
+    text-align: center;
+
+    margin: 2.5% 2.5% 2.5% 2.5%;
+    padding: 2.5% 2.5% 2.5% 2.5%;
+
+    background-color: #111;
+
+    border-radius: 4px;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+}
+
+#contact-me span {
+    font-size: 2rem;
+}
+
+#contact-me form textarea {
+    border: none;
+}
+
+#contact-me form button {
+    border: none;
+}
+
