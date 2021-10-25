@@ -3,6 +3,8 @@
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
 
+    font-size: 1rem;
+
     grid-template-areas:
         "a b c"
         "d e f"
@@ -14,10 +16,13 @@
     height: 100%;
 
     transition: transform 1s;
-    overflow: hidden;
-    object-fit: cover;
 }
 
 #gallery img:hover {
     transform: scale(1.05);
+}
+
+main p a {
+    text-decoration: none;
+    color: orange;
 }

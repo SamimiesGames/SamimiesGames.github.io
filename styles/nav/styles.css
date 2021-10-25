@@ -6,7 +6,7 @@
 
     grid-template-rows: repeat(10, 1fr);
 
-    grid-template-areas: "icon . . . . projects about-me skills gallery contact-me";
+    grid-template-areas: "icon . . . projects about-me skills gallery animation contact-me";
     margin: .5% 2.5% 5% 2.5%;
     height: 250px;
 }
