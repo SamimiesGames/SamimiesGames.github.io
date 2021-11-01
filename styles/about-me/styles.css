@@ -1,6 +1,11 @@
 #about-me {
     display: grid;
 
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        ". about-me-title ."
+        ". about-me-quote ."
+        ;
 
     margin: 0 2.5% 20% 2.5%;
     text-align: center;
@@ -8,4 +13,10 @@
 
 #about-me p {
     font-size: 2rem;
+}
+
+#about-me blockquote {
+    border-left: 10px dodgerblue solid;
+    margin: auto;
+    padding: 2.5% 2.5% 2.5% 2.5%;
 }
