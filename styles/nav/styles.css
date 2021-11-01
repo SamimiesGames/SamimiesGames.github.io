@@ -4,11 +4,10 @@
 #navigation {
     display: grid;
 
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(10, 1fr);
 
     grid-template-areas: "icon . . . projects about-me skills gallery animation contact-me";
-    margin: .5% 2.5% 5% 2.5%;
-    height: 250px;
+    margin: .5% 2.5% 0 2.5%;
 }
 
 .nav-item {

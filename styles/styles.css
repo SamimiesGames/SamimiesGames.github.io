@@ -5,11 +5,14 @@
 @import "skills/styles.css";
 @import "contact-me/styles.css";
 
+* {
+    box-sizing: border-box;
+}
 
 html {
     scroll-behavior: smooth;
 
-    font-family: "Roboto", monospace;
+    font-family: "Roboto", sans-serif;
 
     background-color: black;
     color: white;
