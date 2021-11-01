@@ -5,6 +5,7 @@
     display: grid;
 
     grid-template-columns: repeat(10, 1fr);
+    grid-gap: 1rem;
 
     grid-template-areas: "icon . . . projects about-me skills gallery animation contact-me";
     margin: .5% 2.5% 0 2.5%;
@@ -15,4 +16,17 @@
     color: white;
     font-size: var(--fs-nav);
     margin: auto;
+}
+
+@media (max-width: 768px) {
+    #navigation {
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+        grid-template-areas:
+            ". . .  icon icon . . ."
+            ". projects about-me skills gallery animation contact-me ."
+            ;
+
+    }
 }
