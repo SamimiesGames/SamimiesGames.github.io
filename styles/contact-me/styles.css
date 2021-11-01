@@ -1,12 +1,12 @@
 #contact-me {
     text-align: center;
 
-    margin: 2.5% 2.5% 2.5% 2.5%;
+    margin: 0 0 2.5% 0;
     padding: 2.5% 2.5% 2.5% 2.5%;
 
-    background-color: #111;
+    background-color: #333;
 
-    border-radius: 4px;
+    border-radius: 10px;
 }
 
 #contact-me form {
@@ -16,17 +16,35 @@
     grid-template-areas: ". email send .";
     grid-gap: 1rem;
 
-    margin: 2.5% 2.5% 2.5% 2.5%;
+    margin: 2.5% 2.5% 0 2.5%;
     padding: 2.5% 2.5% 2.5% 2.5%;
 }
 
+@media (max-width: 768px) {
+    #contact-me form {
+        grid-template-areas:
+            ". email email ."
+            ". send send .";
+    }
+}
+
+
+#contact-me form * {
+    padding: 2.5% 2.5% 2.5% 2.5%;
+    border: none;
+    border-radius: 6px;
+}
 
 #contact-me span {
     font-size: 2rem;
+    margin-bottom: 10%;
 }
 
 #contact-me form button {
-    border: none;
     background-color: chocolate;
+    transition: all 1s;
 }
 
+#contact-me form button:hover {
+    background-color: goldenrod;
+}
