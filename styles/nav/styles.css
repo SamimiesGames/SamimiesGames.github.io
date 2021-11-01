@@ -20,12 +20,13 @@
 
 @media (max-width: 768px) {
     #navigation {
-        grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
 
         grid-template-areas:
-            ". . .  icon icon . . ."
-            ". projects about-me skills gallery animation contact-me ."
+            ". icon ."
+            "projects about-me skills"
+            "gallery animation contact-me"
             ;
 
     }
