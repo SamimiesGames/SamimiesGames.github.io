@@ -4,7 +4,7 @@
 
 
 #navigation a:hover {
-    color: #aaa;
+    color: var(--hover-color);
 }
 
 #navigation a {

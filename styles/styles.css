@@ -5,6 +5,14 @@
 @import "skills/styles.css";
 @import "contact-me/styles.css";
 
+
+:root {
+    --hover-color: #aaa;
+    --section-color-1: hsl(0, 50%, 54%);
+    --section-color-2: dodgerblue;
+    --background-color: #FA4D56;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -14,6 +22,6 @@ html {
 
     font-family: "Roboto", sans-serif;
 
-    background-color: #1e1e1e;
+    background-color: var(--background-color);
     color: white;
 }

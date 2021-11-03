@@ -4,7 +4,7 @@
     margin: 0 2.5% 0 2.5%;
     padding: 2.5% 2.5% 2.5% 2.5%;
 
-    background-color: #333;
+    background-color: var(--section-color-1);
 
     border-radius: .4rem;
 }
@@ -21,13 +21,16 @@
 }
 
 @media (max-width: 768px) {
+    #contact-me span {
+        font-size: 1.5rem;
+    }
+
     #contact-me form {
         grid-template-areas:
             ". email email ."
             ". send send .";
     }
 }
-
 
 #contact-me form * {
     padding: 2.5% 2.5% 2.5% 2.5%;
@@ -41,10 +44,9 @@
 }
 
 #contact-me form button {
-    background-color: chocolate;
     transition: all 1s;
 }
 
 #contact-me form button:hover {
-    background-color: goldenrod;
+    background-color: var(--section-color-2);
 }

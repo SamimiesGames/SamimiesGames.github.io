@@ -44,4 +44,7 @@
                 ". responsive-example ."
         ;
     }
+    #projects div p {
+        font-size: 1.5rem;
+    }
 }
