@@ -1,29 +1,39 @@
 /*! 2021 SamimiesGames | MIT License | https://samimiesgames.github.io/LICENSE.txt */
 
-:root {
-  --paradise-pink: #ef476fff;
-  --orange-yellow-crayola: #ffd166ff;
-  --caribbean-green: #06d6a0ff;
-  --blue-ncs: #118ab2ff;
-  --midnight-green-eagle-green: #073b4cff;
+@import "hero-banner/index.css";
+@import "consice-nav/index.css";
 
-  --colour5: var(--paradise-pink);
-  --colour4: var(--orange-yellow-crayola);
-  --colour3: var(--caribbean-green);
-  --colour2: var(--blue-ncs);
-  --colour1: var(--midnight-green-eagle-green);
+:root {
+  --mango: #ffbe0bff;
+  --orange-pantone: #fb5607ff;
+  --winter-sky: #ff006eff;
+  --blue-violet: #8338ecff;
+  --azure: #3a86ffff;
+
+  --colour5: var(--mango);
+  --colour4: var(--orange-pantone);
+  --colour3: var(--winter-sky);
+  --colour2: var(--blue-violet);
+  --colour1: var(--azure);
 
   --fs-xl: 4rem;
   --fs-lg: 3rem;
   --fs-md: 2rem;
   --fs-sm: 1rem;
   --fs-xs: .5rem;
+
+  --font-colour: whitesmoke;
+  --font-colour-darker: #525252;
+
+  --line-height: 1.5;
 }
 
 html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.5;
+  font-family: -apple-system, "Roboto", sans-serif;
+  color: var(--font-colour);
+  background-color: var(--colour3);
+  font-size: var(--fs-md);
+  line-height: var(--line-height);
 }
 
 /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */

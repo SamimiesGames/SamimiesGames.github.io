@@ -1,0 +1,16 @@
+.hero-banner {
+  text-align: center;
+  padding-block: 25%;
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero-banner {
+    font-size: var(--fs-lg);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-banner {
+    font-size: var(--fs-sm)
+  }
+}
