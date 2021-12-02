@@ -10,8 +10,9 @@
   <meta name="msapplication-tooltip" content="Watch and Track my portfolio!">
   <meta name="msapplication-starturl" content="https://samimiesgames.github.io/index.html">
 
-  <meta name="description" content="Watch and Track my portfolio!">
-  <meta name="keywords" content="Portfolio SamimiesGames Sami">
+  <meta name="description" content="Samimies portfolio! Minimalist design reinvented.">
+  <meta name="keywords" content="Portfolio, SamimiesGames, Sami, Samimies, Web-design">
+  <meta name="author" content="SamimiesGames">
   <meta name="robots" content="noindex">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,9 +34,9 @@
 
 <body>
   <header class="concise-nav">
-    <button class="concise-nav-button">Home</button>
-    <button class="concise-nav-button">Talent?</button>
-    <button class="concise-nav-button">Gallery</button>
+    <a class="concise-nav-button">Home</a>
+    <a class="concise-nav-button">Talent</a>
+    <a class="concise-nav-button">Projects</a>
   </header>
   <section class="hero-banner">
     <h1 class="hero-banner-title">Welcome to my portfolio!</h1>
@@ -43,15 +44,31 @@
   </section>
   <section id="talent" class="talent">
     <p>Minimalism at its best.</p>
-    <p>Expertise reimagined.</p>
-    <p>True freedom.</p>
-    <p>Fullstack.</p>
+    <p>Minimalism reimagined.</p>
+    <p>Maximum ux</p>
   </section>
-  <section class="projects">
+  <section id="projects" class="projects">
+    <div class="project">
+      <p class="project-title">Hannankakut</p>
+      <p class="project-description">A Procedurally generated online baked-goods shop.</p>
+      <button class="tour-button" data-src="https://samimiesgames.github.io/hannankakut/" data-clicked="0">Take a peek.</button><br>
+    </div>
+    <div class="project">
+      <p class="project-title">Flex example.</p>
+      <p class="project-description">A Flex example.</p>
+      <button class="tour-button" data-src="https://public.bc.fi/s2101002/harjoitukset/flex/" data-clicked="0">Take a peek.</button><br>
+    </div>
   </section>
+  <footer class="footer">
+    <p class="footer-title">Interested?</p>
+    <a class="footer-redirect" href="https://discordapp.com/users/257846560468107264/">Discord!</a>
+    <a href="https://twitter.com/intent/tweet?screen_name=MeSamimies&ref_src=twsrc%5Etfw" class="footer-redirect twitter-mention-button" data-show-count="false">Tweet!</a>
+    <a class="footer-redirect" href="">Email!</a>
+    <a href="./legal.html" class="footer-redirect">Legal</a>
+  </footer>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  <script type="module" src="js/main.js"></script>
 </body>
 
 </html>

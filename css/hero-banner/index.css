@@ -2,6 +2,9 @@
   text-align: center;
   padding-block: calc(25%);
 }
+.hero-banner-quote {
+  color: var(--font-colour-darker)
+}
 
 @media only screen and (min-width: 1200px) {
   .hero-banner-title {
