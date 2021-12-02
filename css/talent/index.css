@@ -1,0 +1,26 @@
+.talent {
+  display: flex;
+  flex-flow: column;
+
+  align-content: center;
+  justify-content: center;
+
+  background-color: var(--colour5);
+
+}
+
+.talent p {
+  font-size: var(--fs-xl);
+}
+
+@media only screen and (max-width: 600px) {
+  .talent p {
+    font-size: var(--fs-md);
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .talent p {
+    font-size: var(--fs-sm)
+  }
+}

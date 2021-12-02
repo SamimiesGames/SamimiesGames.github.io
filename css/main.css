@@ -2,6 +2,7 @@
 
 @import "hero-banner/index.css";
 @import "consice-nav/index.css";
+@import "talent/index.css";
 
 :root {
   --mango: #ffbe0bff;
@@ -12,7 +13,7 @@
 
   --colour5: var(--mango);
   --colour4: var(--orange-pantone);
-  --colour3: var(--winter-sky);
+  --colour3: var(--azure);
   --colour2: var(--blue-violet);
   --colour1: var(--azure);
 
@@ -21,15 +22,19 @@
   --fs-md: 2rem;
   --fs-sm: 1rem;
   --fs-xs: .5rem;
+  --fs-xxs: .25rem;
 
   --font-colour: whitesmoke;
   --font-colour-darker: #525252;
+
+  --consise-nav-height: 2.5%;
 
   --line-height: 1.5;
 }
 
 html {
-  font-family: -apple-system, "Roboto", sans-serif;
+  font-family: -apple-system, "Arial", sans-serif;
+  font-weight: bold;
   color: var(--font-colour);
   background-color: var(--colour3);
   font-size: var(--fs-md);

@@ -1,7 +1,7 @@
 .concise-nav-button {
   background-color: inherit;
   color: var(--font-colour);
-  border: 1px solid var(--font-colour);
+  border: 3px solid var(--font-colour);
 
   text-align: center;
   font-size: var(--fs-xs);

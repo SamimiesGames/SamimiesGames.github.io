@@ -1,16 +1,22 @@
 .hero-banner {
   text-align: center;
-  padding-block: 25%;
+  padding-block: calc(25%);
 }
 
 @media only screen and (min-width: 1200px) {
-  .hero-banner {
+  .hero-banner-title {
     font-size: var(--fs-lg);
+  }
+  .hero-banner-quote {
+    font-family: var(--fs-sm);
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .hero-banner {
+  .hero-banner-title {
     font-size: var(--fs-sm)
+  }
+  .hero-banner-quote {
+    font-family: var(--fs-xxs);
   }
 }
