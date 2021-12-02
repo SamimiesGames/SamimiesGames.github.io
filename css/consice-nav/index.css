@@ -1,0 +1,10 @@
+@import "buttons/index.css";
+
+.concise-nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-items: center;
+
+  padding-block: var(--consise-nav-height);
+  width: 100%;
+}

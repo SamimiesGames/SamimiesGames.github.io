@@ -1,0 +1,18 @@
+.concise-nav-button {
+  background-color: inherit;
+  color: var(--font-colour);
+  border: 3px solid var(--font-colour);
+
+  text-align: center;
+  font-size: var(--fs-xs);
+
+  padding-block: .5%;
+  margin: 0 1.5% 0 1.5%;
+
+  border-radius: .25rem;
+}
+
+
+.concise-nav-button:hover {
+  color: var(--font-colour-darker)
+}
