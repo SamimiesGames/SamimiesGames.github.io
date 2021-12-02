@@ -1,0 +1,20 @@
+@import "@twitter.css";
+
+.footer {
+  color: var(--font-colour);
+  background-color: var(--colour3);
+  padding: 2.5%;
+}
+
+.footer-title {
+  font-size: var(--fs-md);
+}
+
+.footer-redirect {
+  text-decoration: none;
+  padding: 2.5%;
+  background-color: inherit;
+  color: var(--font-colour);
+  border: 3px solid var(--font-colour);
+  border-radius: .25rem;
+}

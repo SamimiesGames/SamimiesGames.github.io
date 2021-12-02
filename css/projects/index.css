@@ -1,0 +1,23 @@
+.projects {
+  background-color: var(--colour6);
+  text-align: left;
+}
+
+
+.project {
+  text-align: center;
+}
+
+.project-title {
+  font-size: var(--fs-xl);
+  padding-bottom: 0;
+}
+
+.project-description {
+  color: var(--font-colour-darker)
+}
+
+.project iframe {
+  width: 50%;
+  height: 50%;
+}

@@ -1,0 +1,10 @@
+.legal-info-banner {
+  font-size: var(--fs-sm);
+  white-space: pre-line;
+  text-align: left;
+  padding-left: 1%;
+}
+
+.license-pretty {
+  color: var(--font-colour-darker);
+}

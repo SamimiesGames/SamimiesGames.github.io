@@ -1,0 +1,6 @@
+.tour-button {
+  background-color: var(--winter-sky);
+  border-radius: .25rem;
+  border: none;
+  padding: 2.5%;
+}

@@ -3,6 +3,12 @@
 @import "hero-banner/index.css";
 @import "consice-nav/index.css";
 @import "talent/index.css";
+@import "interludes/index.css";
+@import "tours/index.css";
+@import "projects/index.css";
+@import "footer/index.css";
+@import "legals/index.css";
+
 
 :root {
   --mango: #ffbe0bff;
@@ -11,9 +17,10 @@
   --blue-violet: #8338ecff;
   --azure: #3a86ffff;
 
+  --colour6: black;
   --colour5: var(--mango);
   --colour4: var(--orange-pantone);
-  --colour3: var(--azure);
+  --colour3: var(--winter-sky);
   --colour2: var(--blue-violet);
   --colour1: var(--azure);
 
@@ -24,19 +31,27 @@
   --fs-xs: .5rem;
   --fs-xxs: .25rem;
 
-  --font-colour: whitesmoke;
+  --font-colour: #f5f5f7;
   --font-colour-darker: #525252;
 
   --consise-nav-height: 2.5%;
+  --section-height: 5%;
 
   --line-height: 1.5;
 }
 
+
+section {
+  padding-block: var(--section-height);
+}
+
+
 html {
+  scroll-behavior: smooth;
   font-family: -apple-system, "Arial", sans-serif;
   font-weight: bold;
   color: var(--font-colour);
-  background-color: var(--colour3);
+  background-color: var(--colour1);
   font-size: var(--fs-md);
   line-height: var(--line-height);
 }
