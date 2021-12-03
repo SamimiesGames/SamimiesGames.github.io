@@ -3,4 +3,13 @@
   border-radius: .25rem;
   border: none;
   padding: 2.5%;
+
+  transition: .5s transform;
 }
+
+
+.tour-button:hover {
+  transform: rotate(4deg);
+  background-color: var(--mango);
+}
+
