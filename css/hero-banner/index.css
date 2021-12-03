@@ -4,7 +4,21 @@
   padding-top: calc(25% / 2);
 }
 .hero-banner-quote {
-  color: var(--font-colour)
+  color: var(--font-colour);
+  opacity: 0;
+
+  animation: reveal 4s 1;
+}
+
+@keyframes reveal {
+  100% {
+    opacity: 100%;
+  }
+}
+
+
+.hero-banner {
+  opacity: 100%;
 }
 
 @media only screen and (max-width: var(--resp-desktop)) {
