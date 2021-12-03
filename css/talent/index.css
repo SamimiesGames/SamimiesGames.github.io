@@ -10,6 +10,7 @@
 
 .talent p {
   font-size: var(--fs-xl);
+  color: var(--winter-sky);
 }
 
 @media only screen and (max-width: 600px) {
@@ -22,4 +23,8 @@
   .talent p {
     font-size: var(--fs-sm)
   }
+}
+
+.talent p * {
+  color: var(--mango);
 }

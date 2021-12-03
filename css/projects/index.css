@@ -1,23 +1,30 @@
 .projects {
-  background-color: var(--colour6);
-  text-align: left;
-}
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 
+  background: var(--rainbow);
+}
 
 .project {
+  display: flex;
+  flex-flow: column wrap;
+
   text-align: center;
+  text-decoration: none;
+
+  border-radius: .5rem;
+  padding: 5%;
+
+  background-color: #1e1e1e;
+  color: var(--font-colour);
+
+  transition: .5s opacity;
 }
 
-.project-title {
-  font-size: var(--fs-xl);
-  padding-bottom: 0;
-}
-
-.project-description {
-  color: var(--font-colour-darker)
-}
-
-.project iframe {
-  width: 50%;
-  height: 50%;
+.project img {
+  max-width: 100%;
+  max-height: 100%;
 }
