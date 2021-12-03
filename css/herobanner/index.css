@@ -1,0 +1,12 @@
+.herobanner {
+  text-align: center;
+  font-size: var(--fs-sm);
+  padding-block: 15%;
+}
+
+@media (min-width: 768px){
+  .herobanner {
+    font-size: var(--fs-md);
+    border: 1px solid red;
+  }
+}

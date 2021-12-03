@@ -33,13 +33,19 @@
 
 <body>
   <header class="concise-nav">
-    <a class="concise-nav-button">Home</a>
-    <a class="concise-nav-button">Talent</a>
-    <a class="concise-nav-button">Projects</a>
+    <a class="concise-nav-button" href="#">Home</a>
+    <a class="concise-nav-button" href="#talent">Talent</a>
+    <a class="concise-nav-button" href="#projects">Projects</a>
   </header>
   <section class="hero-banner">
     <h1 class="hero-banner-title">Welcome to my portfolio!</h1>
     <p class="hero-banner-quote">Perfect, minimalist.</p>
+  </section>
+  <section id="banners" class="banners">
+    <div class="banner">
+      <img alt="gh_contributions_stats" src="https://github-readme-stats.vercel.app/api?username=SamimiesGames&show_icons=true">
+      <img alt="gh_lang_stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SamimiesGames&layout=compact">
+    </div>
   </section>
   <section id="talent" class="talent">
     <p>Minimalism at its <b>best</b>.</p>
@@ -48,15 +54,25 @@
   </section>
   <section id="projects" class="projects">
     <a class="project" href="https://samimiesgames.github.io/hannankakut">
-      <img alt="" src="https://samimiesgames.github.io/hannankakut/tile.png">
-      Hannankakut.
+      CI/CD
+    </a>
+    <a class="project">
+      UI/UX
+    </a>
+    <a class="project">
+      DX
+    </a>
+    <a class="project">
+      AI/ML
     </a>
   </section>
   <footer class="footer">
     <p class="footer-title">Interested?</p>
     <a class="footer-redirect" href="https://discordapp.com/users/257846560468107264/">Discord!</a>
     <a href="https://twitter.com/intent/tweet?screen_name=MeSamimies&ref_src=twsrc%5Etfw" class="footer-redirect twitter-mention-button" data-show-count="true">Tweet!</a>
-    <a class="footer-redirect" href="">Email!</a>
+    <a class="footer-redirect disabled-redirect">Email!</a>
+    <a class="footer-redirect disabled-redirect">Call!</a>
+    <p class="footer-title">Other?</p>
     <a href="./legal.html" class="footer-redirect">Legal</a>
   </footer>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>

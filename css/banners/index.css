@@ -1,0 +1,17 @@
+.banners {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+
+  background-color: var(--colour2);
+}
+
+.banner {
+  width: 25%;
+  height: 25%;
+
+  border-radius: 2rem;
+
+  color: var(--font-colour);
+}
