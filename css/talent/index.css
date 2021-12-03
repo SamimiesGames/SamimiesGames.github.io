@@ -13,18 +13,25 @@
   color: var(--winter-sky);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: var(--resp-desktop)) {
+  .talent p {
+    font-size: var(--fs-lg);
+  }
+}
+
+@media only screen and (max-width: var(--resp-tablet)) {
   .talent p {
     font-size: var(--fs-md);
   }
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: var(--resp-mobile)) {
   .talent p {
     font-size: var(--fs-sm)
   }
 }
 
+/* Highlight all "non-text" parts. */
 .talent p * {
   color: var(--mango);
 }

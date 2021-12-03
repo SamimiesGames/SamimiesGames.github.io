@@ -38,14 +38,20 @@
   --fs-md: 2rem;
   --fs-sm: 1rem;
   --fs-xs: .5rem;
+  --fs-xsq:.4rem;
   --fs-xxs: .25rem;
 
   --font-colour: #525252;
+  --font-colour-darker: #1e1e1e;
 
   --consise-nav-height: 2.5%;
   --section-height: 5%;
 
   --line-height: 1.5;
+
+  --resp-mobile: 47em;
+  --resp-tablet: 70em;
+  --resp-desktop: 90em;
 }
 
 

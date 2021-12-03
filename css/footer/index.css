@@ -18,3 +18,17 @@
   border: 3px solid var(--font-colour);
   border-radius: .25rem;
 }
+
+.disabled-redirect {
+  color: navajowhite;
+  border: 3px solid navajowhite;
+}
+
+@media only screen and (max-width: var(--resp-tablet)) {
+  .footer-title {
+    font-size: var(--fs-sm)
+  }
+  .footer-redirect {
+    font-size: var(--fs-xs);
+  }
+}

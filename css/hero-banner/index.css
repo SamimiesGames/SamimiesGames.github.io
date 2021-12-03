@@ -1,25 +1,23 @@
 .hero-banner {
   text-align: center;
-  padding-block: calc(25%);
+  padding-block: 25%;
+  padding-top: calc(25% / 2);
 }
 .hero-banner-quote {
-  color: var(--font-colour-darker)
+  color: var(--font-colour)
 }
 
-@media only screen and (min-width: 1200px) {
-  .hero-banner-title {
-    font-size: var(--fs-lg);
-  }
+@media only screen and (max-width: var(--resp-desktop)) {
   .hero-banner-quote {
-    font-family: var(--fs-sm);
+    font-size: var(--fs-sm);
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: var(--resp-tablet)) {
   .hero-banner-title {
     font-size: var(--fs-sm)
   }
   .hero-banner-quote {
-    font-family: var(--fs-xxs);
+    font-size: var(--fs-xs);
   }
 }

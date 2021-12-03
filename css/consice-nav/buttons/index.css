@@ -6,13 +6,17 @@
   text-align: center;
   font-size: var(--fs-xs);
 
+  text-decoration: none;
+
   padding: 1%;
   margin: 0 1.5% 0 1.5%;
 
   border-radius: .25rem;
 }
 
-
-.concise-nav-button:hover {
-  color: var(--font-colour-darker)
+@media only screen and (max-width: var(--resp-tablet)) {
+  .concise-nav-button {
+    font-size: var(--fs-xsq);
+  }
 }
+
