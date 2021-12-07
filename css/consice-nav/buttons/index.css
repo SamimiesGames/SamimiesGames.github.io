@@ -14,9 +14,30 @@
   border-radius: .25rem;
 }
 
+.nav-important {
+  border: none;
+  position: fixed;
+  top: 85%;
+  left: 85%;
+  width: 10%;
+  background-color: var(--azure);
+  transition: width 1s;
+}
+
+
+
 @media only screen and (max-width: 70em) {
   .concise-nav-button {
     font-size: var(--fs-xsq);
   }
 }
 
+@media only screen and (max-width: 47em) {
+  .nav-important {
+    left: 25%;
+    width: 50%;
+    top: 95%;
+  }
+}
+
+.nav-closable {}
