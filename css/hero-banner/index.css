@@ -21,13 +21,13 @@
   opacity: 100%;
 }
 
-@media only screen and (max-width: var(--resp-desktop)) {
+@media only screen and (max-width: 90em) {
   .hero-banner-quote {
     font-size: var(--fs-sm);
   }
 }
 
-@media only screen and (max-width: var(--resp-tablet)) {
+@media only screen and (max-width: 70em) {
   .hero-banner-title {
     font-size: var(--fs-sm)
   }

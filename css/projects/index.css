@@ -29,3 +29,15 @@
   background-color: #1e1e1e;
   color: var(--font-colour);
 }
+
+@media only screen and (max-width: 70em) {
+  .project {
+    font-size: var(--fs-sm);
+  }
+}
+
+@media only screen and (max-width: 47em) {
+  .project {
+    font-size: var(--fs-xs)
+  }
+}
