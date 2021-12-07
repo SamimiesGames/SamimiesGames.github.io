@@ -1,0 +1,18 @@
+.error-message {
+  color: red;
+  background: var(--rainbow);
+  font-size: var(--fs-xl);
+}
+
+.full-center {
+  margin: 20% 20% 20% 20%;
+  padding: 5% 5% 5% 5%;
+  width: 50%;
+}
+
+.round {
+  border-radius: .25rem;
+}
+.extra-round {
+  border-radius: .5rem;
+}
