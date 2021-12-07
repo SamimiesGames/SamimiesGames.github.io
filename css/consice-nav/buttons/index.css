@@ -14,7 +14,7 @@
   border-radius: .25rem;
 }
 
-@media only screen and (max-width: var(--resp-tablet)) {
+@media only screen and (max-width: 70em) {
   .concise-nav-button {
     font-size: var(--fs-xsq);
   }

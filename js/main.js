@@ -1,4 +1,4 @@
-import { applyTourButtonsExtension } from "./tour-buttons.js";
+import { applyTourButtonsExtension } from "./app.tour-buttons.js";
 
 
 applyTourButtonsExtension()

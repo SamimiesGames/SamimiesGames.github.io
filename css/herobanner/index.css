@@ -4,7 +4,7 @@
   padding-block: 15%;
 }
 
-@media (min-width: 768px){
+@media (min-width: 70em){
   .herobanner {
     font-size: var(--fs-md);
     border: 1px solid red;

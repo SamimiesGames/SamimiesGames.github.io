@@ -5,6 +5,8 @@
   align-content: center;
   justify-content: center;
 
+  text-align: center;
+
   background-color: var(--colour5);
 }
 
@@ -13,19 +15,19 @@
   color: var(--winter-sky);
 }
 
-@media only screen and (max-width: var(--resp-desktop)) {
+@media only screen and (max-width: 90em) {
   .talent p {
     font-size: var(--fs-lg);
   }
 }
 
-@media only screen and (max-width: var(--resp-tablet)) {
+@media only screen and (max-width: 70em) {
   .talent p {
     font-size: var(--fs-md);
   }
 }
 
-@media only screen and (max-width: var(--resp-mobile)) {
+@media only screen and (max-width: 47em) {
   .talent p {
     font-size: var(--fs-sm)
   }
