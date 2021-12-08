@@ -10,6 +10,7 @@
 @import "legals/index.css";
 @import "banners/index.css";
 @import "maintenance/index.css";
+@import "typography.css";
 
 
 :root {
@@ -56,14 +57,11 @@
   --resp-desktop: 90em;
 }
 
-
 section {
   padding-block: var(--section-height);
 }
 
-
 html {
-  font-display: optional;
   scroll-behavior: smooth;
   font-family: -apple-system, "Arial", sans-serif;
   font-weight: bold;
