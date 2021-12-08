@@ -1,18 +1,24 @@
 .error-message {
+  text-align: center;
   color: red;
-  background: var(--rainbow);
-  font-size: var(--fs-xl);
+
+  font-size: var(--fs-lg);
 }
 
-.full-center {
-  margin: 20% 20% 20% 20%;
-  padding: 5% 5% 5% 5%;
-  width: 50%;
+@media only screen and (max-width: 70em) {
+  .error-message {
+    font-size: var(--fs-md);
+  }
+  .return-home {
+    font-size: var(--fs-md);
+  }
 }
 
-.round {
-  border-radius: .25rem;
-}
-.extra-round {
-  border-radius: .5rem;
+@media only screen and (max-width: 47em) {
+  .error-message {
+    font-size: var(--fs-sm)
+  }
+  .return-home {
+    font-size: var(--fs-sm);
+  }
 }

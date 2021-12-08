@@ -14,7 +14,7 @@
   border-radius: .25rem;
 }
 
-.nav-important {
+.nav-fixed-button {
   border: none;
   position: fixed;
   top: 85%;
@@ -24,8 +24,6 @@
   transition: width 1s;
 }
 
-
-
 @media only screen and (max-width: 70em) {
   .concise-nav-button {
     font-size: var(--fs-xsq);
@@ -33,7 +31,7 @@
 }
 
 @media only screen and (max-width: 47em) {
-  .nav-important {
+  .nav-fixed-button {
     left: 25%;
     width: 50%;
     top: 95%;
