@@ -66,8 +66,7 @@ html {
   scroll-behavior: smooth;
   font-family: -apple-system, "Arial", sans-serif;
   font-weight: bold;
-  color: var(--font-colour);
-  background-color: var(--colour2);
+
   font-size: var(--fs-md);
   line-height: var(--line-height);
 }
