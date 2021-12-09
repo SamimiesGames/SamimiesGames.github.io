@@ -1,0 +1,40 @@
+:root {
+  --padding: 2.5%;
+}
+
+.bubble {
+  border: none;
+  position: fixed;
+
+  text-align: center;
+
+  border-radius: .25rem;
+  padding: var(--padding);
+
+  background-color: var(--azure);
+  color: var(--background-color);
+
+  font-size: var(--fs-xs);
+
+  transition: width 1s;
+}
+
+.right-bound {
+  top: calc(95% - var(--padding) * 4);
+  left: 85%;
+  width: calc(10% - var(--padding));
+}
+
+@media only screen and (max-width: 70em) {
+  .bubble {
+    font-size: var(--fs-xsq);
+  }
+}
+
+@media only screen and (max-width: 47em) {
+  .bound-mobile-fallback {
+    left: 25%;
+    width: 50%;
+    top: calc(95% - var(--padding) * 2);
+  }
+}

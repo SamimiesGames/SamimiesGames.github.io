@@ -12,6 +12,10 @@
   font-size: var(--fs-md);
 }
 
+.txt-sm {
+  font-size: var(--fs-sm);
+}
+
 .seamless-link {
   text-decoration: none;
   color: var(--font-colour);
@@ -47,6 +51,9 @@
   }
   .txt-md {
     font-size: var(--fs-xs);
+  }
+  .txt-sm {
+    font-size: var(--fs-xsq);
   }
 }
 

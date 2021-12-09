@@ -1,0 +1,22 @@
+.blog-post-group {
+  display: flex;
+  flex-flow: column;
+
+  justify-content: center;
+  align-items: flex-end;
+
+  text-align: center;
+
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.blog-post-title {
+  color: var(--font-colour);
+  margin-bottom: 5%;
+}
+
+
+.blog-post-title:nth-child(even) {
+  align-self: flex-start;
+}

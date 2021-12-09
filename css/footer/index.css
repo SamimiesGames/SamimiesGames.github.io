@@ -6,8 +6,23 @@
   padding: 2.5%;
 }
 
+.footer-dark {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #262626;
+  color: var(--font-colour);
+  padding: 2.5%;
+
+  font-size: var(--fs-xsq);
+}
+
+.footer-dark-button {
+  color: var(--font-colour);
+}
+
 .footer-title {
   font-size: var(--fs-md);
+  color: var(--font-colour);
 }
 
 .footer-redirect {

@@ -21,7 +21,7 @@
   <meta property="og:url" content="https://samimiesgames.github.io/blog/index.html">
   <meta property="og:image" content="https://samimiesgames.github.io/tile-wide.png">
 
-  <link rel="canonical" href="https://samimiesgames.github.io/">
+  <link rel="canonical" href="https://samimiesgames.github.io/blogs/index.html">
   <meta name="mobile-friendly" content="true">
 
   <link rel="manifest" href="site.webmanifest">
@@ -29,27 +29,32 @@
 
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/blog/index.css">
 
-  <meta name="theme-color" content="#fafafa">
+  <meta name="theme-color" content="#1e1e1e">
 </head>
 
 <body>
 <header class="concise-nav">
   <a class="concise-nav-button" href="../index.html">Home</a>
+  <a class="concise-nav-button" href="#blog-list">Blogs</a>
 </header>
-<section class="hero-banner">Read a blog</section>
-<footer class="footer">
-  <p class="footer-title">Interested?</p>
-  <a class="footer-redirect" href="https://discordapp.com/users/257846560468107264/">Discord!</a>
-  <a href="https://twitter.com/intent/tweet?screen_name=MeSamimies&ref_src=twsrc%5Etfw" class="footer-redirect twitter-mention-button" data-show-count="true">Tweet!</a>
-  <a class="footer-redirect disabled-redirect">Email!</a>
-  <a class="footer-redirect disabled-redirect">Call!</a>
-  <p class="footer-title">Other?</p>
-  <a href="./legal.html" class="footer-redirect">Legal</a>
-</footer>
-<script src="js/vendor/modernizr-3.11.2.min.js"></script>
-<script src="js/plugins.js"></script>
-<script type="module" src="js/main.js"></script>
+  <section id="blog-list" class="blog-list">
+    <section class="blog-list-header txt-lg">
+      <p>Trending today</p>
+    </section>
+    <div class="blog-post-group txt-sm">
+      <a class="blog-post-title" href="../solid">The SOLID principles</a>
+      <a class="blog-post-title">How to install a VPN?</a>
+      <a class="blog-post-title">NPM Basics.</a>
+    </div>
+  </section>
+  <footer class="footer-dark">
+    <a class="footer-dark-button" href="./legal.html">Legal</a>
+  </footer>
+  <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="../js/plugins.js"></script>
+  <script type="module" src="../js/main.js"></script>
 </body>
 
 </html>
