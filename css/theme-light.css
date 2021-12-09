@@ -1,0 +1,9 @@
+:root {
+  --font-colour: black;
+  --background-color: whitesmoke;
+}
+
+html {
+  background-color: var(--background-color);
+  color: var(--font-colour)
+}

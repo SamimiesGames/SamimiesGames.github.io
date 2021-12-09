@@ -1,0 +1,9 @@
+:root {
+  --font-colour: white;
+  --background-color: #1e1e1e;
+}
+
+html {
+  background-color: var(--background-color);
+  color: var(--font-colour)
+}

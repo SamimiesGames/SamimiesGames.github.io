@@ -6,7 +6,7 @@
   padding: 2.5%;
 }
 
-.footer-dark {
+.footer-concise {
   display: flex;
   flex-flow: row wrap;
   background-color: #262626;
@@ -16,7 +16,7 @@
   font-size: var(--fs-xsq);
 }
 
-.footer-dark-button {
+.footer-concise-button {
   color: var(--font-colour);
 }
 
