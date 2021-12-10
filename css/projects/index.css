@@ -9,13 +9,19 @@
   padding-block: 25%;
 }
 
+.flex-fill {
+  flex: 100%;
+}
+
 .project[data-disabled="true"] {
   color: var(--font-colour-darker);
 }
 
 .project {
   display: flex;
-  flex-flow: column wrap;
+
+  justify-content: center;
+  align-items: center;
 
   margin: 5%;
 
@@ -23,9 +29,6 @@
   min-height: 10%;
   max-width: 10%;
   max-height: 10%;
-
-  text-align: center;
-  text-decoration: none;
 
   border-radius: .5rem;
   padding: 10%;
