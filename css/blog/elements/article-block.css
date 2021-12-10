@@ -1,0 +1,14 @@
+:root {
+  --article-margin: 15%;
+}
+
+
+.article-block {
+  white-space: pre-line;
+
+  margin-left: var(--article-margin);
+  margin-right: var(--article-margin);
+  width: calc(100% - var(--article-margin) * 2);
+  padding: 2.5%;
+}
+
