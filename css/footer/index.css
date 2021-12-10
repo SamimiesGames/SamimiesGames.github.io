@@ -19,7 +19,7 @@
 .footer-concise-title {
 }
 
-.footer-concise-button {
+.footer-concise-button, a {
   color: var(--font-colour);
   text-decoration: none;
 }
