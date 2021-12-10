@@ -4,15 +4,15 @@
   font-size: var(--fs-xl);
 }
 
-.txt-lg {
+.h2 {
   font-size: var(--fs-lg);
 }
 
-.txt-md {
+.h3 {
   font-size: var(--fs-md);
 }
 
-.txt-sm {
+.h4 {
   font-size: var(--fs-sm);
 }
 
