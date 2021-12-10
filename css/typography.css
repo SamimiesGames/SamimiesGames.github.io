@@ -37,9 +37,6 @@
   .txt-lg {
     font-size: var(--fs-md);
   }
-  .tablet-safe {
-    font-size: var(--fs-md);
-  }
   .item-frame {
     border: 6px solid var(--font-colour);
   }
@@ -53,7 +50,7 @@
     font-size: var(--fs-xs);
   }
   .txt-sm {
-    font-size: var(--fs-xsq);
+    font-size: var(--fs-xs);
   }
 }
 

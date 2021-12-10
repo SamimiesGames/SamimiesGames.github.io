@@ -1,15 +1,9 @@
 @import "@twitter.css";
 
-.footer {
-  color: var(--font-colour);
-  background-color: var(--colour3);
-  padding: 2.5%;
-}
-
 .footer-concise {
   display: flex;
   flex-flow: row wrap;
-  background-color: #262626;
+  background-color: var(--reduced-background-color);
   color: var(--font-colour);
   padding: 2.5%;
 
@@ -32,32 +26,4 @@
 
 .footer-concise-button[data-disabled="true"] {
   color: var(--font-colour-darker)
-}
-
-.footer-title {
-  font-size: var(--fs-md);
-  color: var(--font-colour);
-}
-
-.footer-redirect {
-  text-decoration: none;
-  padding: 2.5%;
-  background-color: inherit;
-  color: var(--font-colour);
-  border: 3px solid var(--font-colour);
-  border-radius: .25rem;
-}
-
-.disabled-redirect {
-  color: navajowhite;
-  border: 3px solid navajowhite;
-}
-
-@media only screen and (max-width: 70em) {
-  .footer-title {
-    font-size: var(--fs-sm)
-  }
-  .footer-redirect {
-    font-size: var(--fs-xs);
-  }
 }
