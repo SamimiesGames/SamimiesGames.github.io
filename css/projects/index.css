@@ -1,12 +1,16 @@
 .projects {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+
   align-content: center;
   justify-content: center;
 
   background: var(--rainbow);
   padding-block: 25%;
+}
+
+.project[data-disabled="true"] {
+  color: var(--font-colour-darker);
 }
 
 .project {
