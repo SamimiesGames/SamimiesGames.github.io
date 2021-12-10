@@ -13,11 +13,25 @@
   color: var(--font-colour);
   padding: 2.5%;
 
-  font-size: var(--fs-xsq);
+  font-size: var(--fs-xs);
+}
+
+.footer-concise-column {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 1.5%;
+}
+
+.footer-concise-title {
 }
 
 .footer-concise-button {
   color: var(--font-colour);
+  text-decoration: none;
+}
+
+.footer-concise-button[data-disabled="true"] {
+  color: var(--font-colour-darker)
 }
 
 .footer-title {
