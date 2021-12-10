@@ -43,6 +43,9 @@
 }
 
 @media only screen and (max-width: 47em) {
+  .txt-xl {
+    font-size: var(--fs-md)
+  }
   .txt-lg {
     font-size: var(--fs-sm);
   }
