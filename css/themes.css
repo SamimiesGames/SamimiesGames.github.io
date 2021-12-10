@@ -1,0 +1,23 @@
+:root {
+  --font-colour: white;
+  --font-colour-darker: gray;
+  --background-color: #1e1e1e;
+  --reduced-background-color: #262626;
+}
+
+html {
+  background-color: var(--background-color);
+  color: var(--font-colour);
+}
+
+html[data-theme="dark"] {
+  --background-color: #1e1e1e;
+  --font-colour: white;
+  --reduced-background-color: #262626;
+}
+
+html[data-theme="light"] {
+  --background-color: whitesmoke;
+  --font-colour: #1e1e1e;
+  --reduced-background-color: #c4c4c4;
+}

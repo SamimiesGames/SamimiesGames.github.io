@@ -3,16 +3,14 @@
 @import "hero-banner/index.css";
 @import "consice-nav/index.css";
 @import "talent/index.css";
-@import "interludes/index.css";
-@import "tours/index.css";
 @import "projects/index.css";
 @import "footer/index.css";
 @import "legals/index.css";
 @import "banners/index.css";
-@import "maintenance/index.css";
+@import "503/index.css";
 @import "typography.css";
 @import "bubble.css";
-
+@import "themes.css";
 
 :root {
   --mango: #ffbe0bff;
@@ -29,13 +27,6 @@
   --slategray: #F5F5F7;
 
   --rainbow: linear-gradient(var(--mango), var(--orange-pantone), var(--winter-sky), var(--blue-violet), var(--azure));
-
-  --colour6: var(--aqua);
-  --colour5: var(--seashell);
-  --colour4: var(--mistyrose);
-  --colour3: var(--cornsilk);
-  --colour2: var(--purplehaze);
-  --colour1: var(--honeydew);
 
   --fs-xl: 4rem;
   --fs-lg: 3rem;

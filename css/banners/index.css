@@ -3,7 +3,6 @@
   flex-flow: column wrap;
   justify-content: center;
   align-content: center;
-  background-color: var(--colour2);
 }
 
 .banner {
