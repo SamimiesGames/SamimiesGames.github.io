@@ -30,6 +30,9 @@
   max-width: 10%;
   max-height: 10%;
 
+
+  box-shadow: .25rem .25rem var(--reduced-background-color);
+
   border-radius: .5rem;
   padding: 10%;
 
