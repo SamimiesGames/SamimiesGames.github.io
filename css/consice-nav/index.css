@@ -1,7 +1,6 @@
 @import "buttons/index.css";
 
 .concise-nav {
-  position: fixed;
   display: flex;
   flex-flow: row wrap;
   justify-items: center;

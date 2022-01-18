@@ -1,5 +1,5 @@
 .concise-nav-button {
-  background-color: var(--background-color);
+  background-color: inherit;
   color: var(--font-colour);
   border: 3px solid var(--font-colour);
 
