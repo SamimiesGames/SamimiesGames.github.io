@@ -1,7 +1,4 @@
-.card-group {
-  display: flex;
-  flex-flow: column wrap;
-}
+
 
 .card {
   text-align: center;
@@ -13,7 +10,7 @@
   border-radius: .25rem;
   padding: 2.5%;
   margin: 2.5%;
-  background-image: url("https://samilaatikainen.com/hannankakut/tile.png");
+
   background-repeat: no-repeat;
   background-size: cover;
 }

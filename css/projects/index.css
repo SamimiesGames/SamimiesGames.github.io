@@ -1,3 +1,6 @@
+@import "my-project-specifications.css";
+
+
 .projects {
   display: flex;
   flex-flow: row wrap;
