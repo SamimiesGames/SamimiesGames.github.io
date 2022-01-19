@@ -21,6 +21,10 @@
   color: var(--font-colour);
 }
 
+.txt-faint {
+  color: var(--font-colour-darker)
+}
+
 .item-frame {
   border: 12px solid var(--font-colour);
   padding: 1rem;
