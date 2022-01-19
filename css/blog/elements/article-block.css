@@ -4,8 +4,7 @@
 
 
 .article {
-  margin-left: var(--article-margin);
-  margin-right: var(--article-margin);
+  margin: 0 var(--article-margin) 0 var(--article-margin);
   width: calc(100% - var(--article-margin) * 2);
   padding-block: 2.5%;
 }
