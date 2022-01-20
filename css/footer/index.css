@@ -6,8 +6,6 @@
   background-color: var(--reduced-background-color);
   color: var(--font-colour);
   padding: 2.5%;
-
-  font-size: var(--fs-xs);
 }
 
 .footer-concise-column {
