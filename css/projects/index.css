@@ -9,7 +9,7 @@
   justify-content: center;
 
   background: var(--rainbow);
-  padding-block: 25%;
+  padding-bottom: 25%;
 }
 
 .flex-fill {

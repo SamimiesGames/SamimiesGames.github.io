@@ -1,4 +1,5 @@
 .button {
+  text-align: center;
   background-color: var(--azure);
   color: var(--font-colour);
   border-radius: .25em;

@@ -9,26 +9,7 @@
 }
 
 .talent p {
-  font-size: var(--fs-xl);
   color: var(--winter-sky);
-}
-
-@media only screen and (max-width: 90em) {
-  .talent p {
-    font-size: var(--fs-lg);
-  }
-}
-
-@media only screen and (max-width: 70em) {
-  .talent p {
-    font-size: var(--fs-md);
-  }
-}
-
-@media only screen and (max-width: 47em) {
-  .talent p {
-    font-size: var(--fs-sm)
-  }
 }
 
 /* Highlight all "non-text" parts. */

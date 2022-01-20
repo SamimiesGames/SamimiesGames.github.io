@@ -1,20 +1,26 @@
 .tablet-safe {}
 
+
 .txt-xl {
   font-size: var(--fs-xl);
 }
 
-.h2 {
+.txt-lg {
   font-size: var(--fs-lg);
 }
 
-.h3 {
+.txt-md {
   font-size: var(--fs-md);
 }
 
-.h4 {
+.txt-sm {
   font-size: var(--fs-sm);
 }
+
+.txt-xs {
+  font-size: var(--fs-xs);
+}
+
 
 .seamless-link {
   text-decoration: none;
@@ -24,6 +30,11 @@
 .txt-faint {
   color: var(--font-colour-darker)
 }
+
+.txt-normal {
+  color: var(--font-colour)
+}
+
 
 .item-frame {
   border: 12px solid var(--font-colour);
@@ -52,6 +63,9 @@
   }
   .txt-lg {
     font-size: var(--fs-sm);
+  }
+  .only-fallback-md {
+    font-size: var(--fs-md)
   }
   .txt-md {
     font-size: var(--fs-xs);
