@@ -1,0 +1,82 @@
+<!doctype html>
+<html class="no-js" lang="" data-theme="dark">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Samimies | Blog</title>
+
+  <meta name="application-name" content="Samimies | Angles">
+
+  <meta name="description" content="Visually see you mobile devices position">
+  <meta name="keywords" content="Portfolio, Blog, SamimiesGames, Sami, Samimies, Web-design, Gimbal, Angles, Whats My Orientation, Orientation, Device Info">
+  <meta name="author" content="SamimiesGames">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="Samimies | Angles">
+  <meta property="og:type" content="link">
+  <meta property="og:url" content="https://samilaatikainen.com/angles.html">
+  <meta property="og:image" content="https://samilaatikainen.com/tile-wide.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+  <link rel="canonical" href="https://samilaatikainen.com/angles.html">
+  <meta name="mobile-friendly" content="true">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/blog/elements/index.css">
+</head>
+
+<body>
+<main>
+  <section class="article txt-md text-center">
+    <h1 class="txt-xl">Get Orient Data</h1>
+    <p id="x"></p>
+    <p id="y"></p>
+  </section>
+</main>
+<footer class="footer-concise txt-sm">
+  <div class="footer-concise-column">
+    <p class="footer-concise-title">Interested?</p>
+    <a class=footer-concise-button" href="https://discordapp.com/users/257846560468107264/">Discord!</a>
+    <a href="https://twitter.com/intent/tweet?screen_name=MeSamimies&ref_src=twsrc%5Etfw">Tweet!</a>
+    <a class="footer-concise-button" data-disabled="true">Email!</a>
+    <a class="footer-concise-button" data-disabled="true">Call!</a>
+  </div>
+  <div class="footer-concise-column">
+    <p class="footer-concise-title">Other?</p>
+    <a href="./legal.html" class="footer-concise-button">Legal</a>
+  </div>
+</footer>
+<script defer>
+  function updateTextState(id, data) {
+    document.getElementById(id)
+      .textContent = `${data}`
+  }
+
+  function onMovement(event) {
+    let absolute = event.absolute;
+    let alpha    = event.alpha;
+    let beta     = event.beta;
+    let gamma    = event.gamma;
+
+    updateTextState("x", beta)
+    updateTextState("y", gamma)
+  }
+
+
+  window.addEventListener("deviceorientation", onMovement, true);
+</script>
+<script src="js/vendor/modernizr-3.11.2.min.js" defer></script>
+<script src="js/plugins.js" defer></script>
+<script type="module" src="js/main.js" defer></script>
+</body>
+
+</html>
