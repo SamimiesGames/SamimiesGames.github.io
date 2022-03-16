@@ -5,7 +5,6 @@
 .bubble {
   border: none;
   position: fixed;
-
   text-align: center;
 
   border-radius: .25rem;
@@ -14,20 +13,13 @@
   background-color: var(--azure);
   color: var(--background-color);
 
-
   transition: width 1s;
 }
 
 .right-bound {
   top: calc(95% - var(--padding) * 4);
-  left: 85%;
+  left: 87%;
   width: calc(10% - var(--padding));
-}
-
-@media only screen and (max-width: 70em) {
-  .bubble {
-    font-size: var(--fs-xsq);
-  }
 }
 
 @media only screen and (max-width: 47em) {
