@@ -38,8 +38,7 @@
 <main>
   <section class="article txt-md text-center">
     <h1 class="txt-xl">Get Orient Data</h1>
-    <p id="x"></p>
-    <p id="y"></p>
+    <p id="state"></p>
   </section>
 </main>
 <footer class="footer-concise txt-sm">
@@ -56,9 +55,15 @@
   </div>
 </footer>
 <script defer>
-  function updateTextState(id, data) {
+  function updateTextState(id, ...data) {
+    let textContent = ""
+
+    for(let value of data) {
+      textContent += `${value}  `.slice(0, 2)
+    }
+
     document.getElementById(id)
-      .textContent = `${data}`
+      .textContent = textContent
   }
 
   function onMovement(event) {
@@ -67,8 +72,7 @@
     let beta     = event.beta;
     let gamma    = event.gamma;
 
-    updateTextState("x", beta)
-    updateTextState("y", gamma)
+    updateTextState("state", absolute, alpha, beta, gamma)
   }
 
 
