@@ -50,6 +50,13 @@ section {
   text-align: center;
 }
 
+.gradient-text {
+  background: linear-gradient(55deg, #ff006eff 0%, #ffbe0bff 80%);
+  background-position: bottom center;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
 html {
   scroll-behavior: smooth;
   font-family: -apple-system, "Roboto", sans-serif;
