@@ -50,6 +50,13 @@ section {
   text-align: center;
 }
 
+iframe {
+  min-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  max-width: 100%;
+}
+
 .gradient-text {
   background: linear-gradient(55deg, #ff006eff 0%, #ffbe0bff 80%);
   background-position: bottom center;
@@ -59,6 +66,13 @@ section {
 
 .gradient-text-2 {
   background: linear-gradient(55deg, #8338ecff 0%, #fb5607ff 80%);
+  background-position: bottom center;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.gradient-text-3 {
+  background: linear-gradient(55deg, red 5%, #fb5607ff 80%);
   background-position: bottom center;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
